@@ -1,0 +1,41 @@
+.box-news {
+  h2 {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.3rem;
+  }
+  h4 {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.2rem;
+  }
+  h6 {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1rem;
+    margin: 0 !important;
+    padding: 0px !important;
+    margin-top: 27px !important;
+  }
+  p {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    line-height: 35px;
+  }
+  figure {
+    text-align: center !important;
+    img {
+      max-width: 100% !important;
+      max-height: 500px !important;
+    }
+  }
+  img {
+    max-width: 100% !important;
+    max-height: 500px !important;
+  }
+}
+.typografy-news {
+  font-size: 2.1rem !important;
+}
+
+.divider-news {
+  border-style: dashed !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}

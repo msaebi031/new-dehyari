@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "IranSanseDN";
+  src: url("../font/iransansdn.ttf"),
+    url("../font/iransansdn.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "IranSanseDNDastnevis";
+  src: url("../font/Dastnevis\ IRSANS.ttf"),
+    url("../font/Dastnevis\ IRSANS.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "IranSanseDNBold";
+  src: url("../font/iransansdnbold.ttf"),
+    url("../font/iransansdnbold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "salamat";
+  src: url("../font/Salamat.ttf"), url("../font/Salamat.ttf") format("ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "IranSanseDN";
+}
+
+.font-bold {
+  font-family: "IranSanseDNBold" !important;
+}
+
+.font-light {
+  font-family: "IranSanseDNDastnevis" !important;
+}
+
+.font-salamat {
+  font-family: "salamat" !important;
+}
+
+.style-toast {
+  font-size: 14px !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+td,
+th {
+  text-align: right !important;
+}
+
+a {
+  text-decoration: none !important;
+}

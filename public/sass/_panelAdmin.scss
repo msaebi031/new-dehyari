@@ -1,0 +1,71 @@
+//PanelAdmin
+.bg-panel {
+  background-color: #f0f2f5;
+}
+
+.maxWitdh-panel {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.card-boxShodow-panelAdmin {
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.08);
+}
+
+.min-height-panelAdmin {
+  min-height: 94vh;
+}
+
+.text-center {
+  text-align: center !important;
+}
+td {
+  border-bottom: 1px solid rgb(241 241 241 / 54%) !important;
+}
+
+// Dashboad
+.avatar-dashboard {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+//News
+.style-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 24px;
+  padding: 2px 4px 3px 4px;
+}
+.scroll-height {
+  overflow-y: scroll;
+  max-height: 90%;
+  padding: 1.5rem !important;
+}
+
+.margin-input {
+  margin-bottom: 25px !important;
+}
+.img-input-news {
+  border: 2px dashed;
+  padding: 9px !important;
+}
+
+//alert
+textarea {
+  height: 100px;
+  width: 95%;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 15px !important;
+  font-family: "IranSanseDN" !important;
+  color: rgba(53, 53, 53, 0.877) !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+  border-color: #f0f2f5;
+  outline: 0;
+  &::placeholder {
+    color: rgba(70, 70, 70, 0.781) !important;
+  }
+}
