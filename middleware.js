@@ -10,10 +10,10 @@ export const middleware = async (request) => {
     cookieName: "login",
     password: process.env.PASSWORD_COOKI,
   });
-  // const { user } = session;
-  // if (!user?.contenteshy) {
-  //   return NextResponse.redirect(new URL("/login", request.url));
-  // }
+  const { user } = session;
+  if (!user?.contenteshy) {
+    return NextResponse.redirect(new URL("/login", request.url));
+  }
   return response;
 };
 
